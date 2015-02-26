@@ -7925,11 +7925,70 @@ header, footer {
 main {
   flex: 1 0 auto; }
 
-#about {
+#about, #learn {
   background-color: #E5E5E5;
   color: #000; }
 
+#ctf, #join {
+  color: #FFF; }
+
 .section {
   font-size: 18px; }
+
+/*Typed*/
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.btcon_1, .btcon_2 {
+  margin-top: 50px; }
+
+.btcon_1 a, .btcon_2 a {
+  text-decoration: none;
+  line-height: 100px;
+  font-size: 2em;
+  -webkit-transition: all 1.0s ease-in-out 0s;
+  transition: all 1.0s ease-in-out 0s; }
+
+.small a {
+  font-size: 1.5em !important; }
+
+.btcon_1 a {
+  color: #464646; }
+
+.btcon_1 a:hover {
+  color: #e5e5e5; }
+
+.btcon_2 a {
+  color: #b7b7b7; }
+
+.btcon_2 a:hover {
+  color: #191919; }
+
+nav ul a {
+  width: 100%; }
 
 /*# sourceMappingURL=materialize.css.map */
