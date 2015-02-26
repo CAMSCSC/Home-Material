@@ -7991,4 +7991,16 @@ main {
 nav ul a {
   width: 100%; }
 
+.slider ul.indicators {
+  position: relative;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 10px; }
+
+.indicators:after {
+  white-space: pre;
+  content: "\A"; }
+
 /*# sourceMappingURL=materialize.css.map */

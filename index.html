@@ -105,9 +105,8 @@
 						<li><img src="gallery/25.png"></li>
 					</ul>
 				</div>
-				
-				<br>
 			</div>
+			<br><br>
 		</div>
 
 		<div id="about" class="section scrollspy grey lighten-2">
@@ -494,9 +493,13 @@
 
 
 		$(document).ready(function() {
+			var isTouchDevice = 'ontouchstart' in document.documentElement;
+		
 			$('.slider').slider({
 				full_width: true,
 				height: 600,
+				interval: 4000,
+				indicators: !isTouchDevice
 			});
 			$('.scrollspy').scrollSpy();
 			$('.button-collapse').sideNav();
